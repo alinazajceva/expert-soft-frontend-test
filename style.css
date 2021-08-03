@@ -2,6 +2,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: sans-serif;
+    overflow-x: hidden;
 }
 
 /* Логотип */
@@ -61,4 +62,51 @@ form button{
     font-size: 18px;
     color: #EEEEEE;
 }
+
+/*контейнер*/
+
+.container {
+    display: flex;
+    flex-basis: 70%;
+    width: 1200px;
+    max-width: 1200px;
+    background-color: rgba(239, 183, 183, 0.3);
+    margin: 0 auto;
+}
+
+.container .wrap_article {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container .wrap_article img {
+    width: 70%;
+    height: 70%;
+}
+
+article {
+    flex-basis: 36%;
+    padding: 7%;
+    position: relative;
+}
+
+.img_container {
+    background-color: white;
+    width: 100%;
+    margin-top: -16%;
+    z-index: 0;
+}
+
+article > p {
+    display: block;
+    z-index: 5;
+    background-color: #B97A95;
+    width: 18%;
+    font-size: 22px;
+    padding: 10px;
+    color: #EEEEEE;
+}
+
+
 
