@@ -106,7 +106,7 @@ article {
     z-index: 0;
 }
 
-.img_container .link {
+.link {
     background-color: rgba(238, 238, 238, .4);
     padding: 8%;
     z-index: 5;
@@ -115,8 +115,9 @@ article {
     display: none;
 }
 
-.container .wrap_article img:hover .link{
+.img_container:hover .link{
     display: block;
+    transition: 1.5s;
 }
 
 .img_container a{
