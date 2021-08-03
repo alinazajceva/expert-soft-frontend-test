@@ -1,0 +1,64 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* Логотип */
+
+header{
+    background: #222222;
+    padding: 8px 0;
+}
+
+.top_wrap{
+    border-top: 1px solid #EFB7B7;
+    border-bottom: 1px solid #EFB7B7;
+}
+
+.top_wrap > div{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.top_wrap .description{
+    flex-basis: 80%;
+    color: #EEEEEE;
+    font-size: 13px;
+    padding-left: 3%;
+}
+
+/*Форма поиска*/
+
+form input{
+    border-radius: 4px;
+    border: 1px solid #dedede;
+    outline: 0;
+    padding: 5px;
+}
+
+form button{
+    border: none;
+    background: none;
+    color: #EFB7B7;
+    outline: 0;
+    cursor: pointer;
+}
+
+.description p:nth-child(1) {
+    color: #EEEEEE;
+    text-transform: uppercase;
+    font-size: 26px;
+    display: inline-block;
+    width: 50%;;
+}
+
+.description p:nth-child(2) {
+    display: inline-block;
+    font-size: 18px;
+    color: #EEEEEE;
+}
+
