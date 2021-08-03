@@ -82,10 +82,15 @@ form button{
 
 .container .wrap_article img {
     display: block;
-    width: 60%;
-    height: 60%;
+    width: 55%;
+    height: 55%;
     margin: 0 auto;
     padding: 15px;
+    transition: 1.5s;
+}
+
+.container .wrap_article img:hover {
+    transform: scale(1.1);
 }
 
 article {
@@ -99,6 +104,27 @@ article {
     width: 100%;
     margin-top: -16%;
     z-index: 0;
+}
+
+.img_container .link {
+    background-color: rgba(238, 238, 238, .4);
+    padding: 8%;
+    z-index: 5;
+    margin-top: -22%;
+    text-align: center;
+    display: none;
+}
+
+.container .wrap_article img:hover .link{
+    display: block;
+}
+
+.img_container a{
+    opacity: 80%;
+    text-decoration: none;
+    color: #595260;
+    font-size: 26px;
+    text-align: center;
 }
 
 article > p {
