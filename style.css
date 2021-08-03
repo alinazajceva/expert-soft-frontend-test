@@ -81,8 +81,11 @@ form button{
 }
 
 .container .wrap_article img {
-    width: 70%;
-    height: 70%;
+    display: block;
+    width: 60%;
+    height: 60%;
+    margin: 0 auto;
+    padding: 15px;
 }
 
 article {
@@ -108,5 +111,16 @@ article > p {
     color: #EEEEEE;
 }
 
+.article_bottom p {
+    text-align: center;
+    color: #595260;
+}
 
+.article_bottom p:nth-child(1) {
+    font-size: 22px;
+}
+
+.article_bottom span {
+    padding-right: 5px;
+}
 
