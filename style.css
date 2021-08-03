@@ -131,11 +131,11 @@ article {
 article > p {
     display: block;
     z-index: 5;
-    background-color: #B97A95;
     width: 18%;
     font-size: 22px;
     padding: 10px;
-    color: #EEEEEE;
+    color: #8E2657;
+    font-weight: bold;
 }
 
 .article_bottom p {
